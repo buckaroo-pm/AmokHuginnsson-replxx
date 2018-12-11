@@ -1,0 +1,19 @@
+cxx_binary(
+  name = 'c-api', 
+  srcs = [
+    'c-api.c', 
+  ], 
+  deps = [
+    '//:replxx', 
+  ], 
+)
+
+cxx_binary(
+  name = 'cxx-api', 
+  srcs = [
+    'cxx-api.cxx', 
+  ], 
+  deps = [
+    '//:replxx', 
+  ], 
+)

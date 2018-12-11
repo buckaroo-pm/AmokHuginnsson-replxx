@@ -11,3 +11,9 @@ libreplxx.a
 history.txt
 *.o
 *~
+replxx_history.txt
+
+.buckd
+buck-out
+.buckconfig.local
+.buckconfig.d
